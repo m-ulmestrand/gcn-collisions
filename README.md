@@ -34,16 +34,23 @@ To find out which particles collide, I used Scipy's cKDTree, which is a Q-Tree i
 https://user-images.githubusercontent.com/54723095/132206927-b5006849-e712-45e8-b27d-e786fab783b9.mp4
 
 #### GCN 
+There seems to have been a slight loss in energy from the physics based simulation to the GCN, but overall, the collision responses look quite realistic. 
 https://user-images.githubusercontent.com/54723095/132207012-8b3bd88f-19c3-4105-b822-69a6bb1d61c1.mp4
 
 ### Symmetry
 
 #### Physics-based simulation
 An obvious break of symmetry is seen in the sequential physics simulation. Clearly, the physics are not quite correct.
-https://user-images.githubusercontent.com/54723095/132207998-82ecb0f6-eefc-4659-bc8b-5a7a1b4a59f7.mp4
+
+
+https://user-images.githubusercontent.com/54723095/132208241-4898255b-7ca5-44a7-8f2b-eaf2519fe5bc.mp4
 
 
 
 #### GCN
 The GCN learns to account for the inconsistencies. This is likely due to that the GCN has seen many multi-particle collisions. Many of these give different dynamics, and the outcome is not predictable solely by observing the simulation. The GCN seems to have found a sort of average between these inconsistencies. 
-https://user-images.githubusercontent.com/54723095/132208029-37970a9a-8ffa-48a8-810b-feba3da4e67e.mp4
+
+
+https://user-images.githubusercontent.com/54723095/132208225-e0c65715-84b7-4847-b2e9-abd339353251.mp4
+
+
