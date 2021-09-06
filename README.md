@@ -35,7 +35,11 @@ https://user-images.githubusercontent.com/54723095/132206927-b5006849-e712-45e8-
 
 #### GCN 
 There seems to have been a slight loss in energy from the physics based simulation to the GCN, but overall, the collision responses look quite realistic. 
-https://user-images.githubusercontent.com/54723095/132207012-8b3bd88f-19c3-4105-b822-69a6bb1d61c1.mp4
+
+
+https://user-images.githubusercontent.com/54723095/132208373-e1eb039a-7bb7-4c43-8e1f-89ad81bffa84.mp4
+
+
 
 ### Symmetry
 
