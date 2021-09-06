@@ -40,10 +40,10 @@ https://user-images.githubusercontent.com/54723095/132207012-8b3bd88f-19c3-4105-
 
 #### Physics-based simulation
 An obvious break of symmetry is seen in the sequential physics simulation. Clearly, the physics are not quite correct.
-https://user-images.githubusercontent.com/54723095/132207331-3302d757-a1a5-4109-b317-94327f587a9e.mp4
+https://user-images.githubusercontent.com/54723095/132207998-82ecb0f6-eefc-4659-bc8b-5a7a1b4a59f7.mp4
+
+
 
 #### GCN
 The GCN learns to account for the inconsistencies. This is likely due to that the GCN has seen many multi-particle collisions. Many of these give different dynamics, and the outcome is not predictable solely by observing the simulation. The GCN seems to have found a sort of average between these inconsistencies. 
-https://user-images.githubusercontent.com/54723095/132207459-6fc8b192-f909-4876-b92f-9a31adbe2b59.mp4
-
-
+https://user-images.githubusercontent.com/54723095/132208029-37970a9a-8ffa-48a8-810b-feba3da4e67e.mp4
