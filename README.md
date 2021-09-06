@@ -24,7 +24,7 @@ To gather data, I made a physics simulation of colliding particles in a box. The
 To see how well Machine Learning algorithms could handle this situation, as well as how it scales with number of particles, I made a Graph Convolutional Network (GCN) and trained it with the physics simulation. The GCN takes the positions and velocities of the particles, along with an adjacency matrix where the indices correspond to which particles collide with one another. 
 
 ### Collision indices
-To find out which particles collide, I used Scipy's cKDTree, which is a Q-Tree implemented in C. 
+To find out which particles collide efficiently, I used Scipy's cKDTree, which is a Q-Tree implemented in C. 
 
 ## Comparison of methods
 
