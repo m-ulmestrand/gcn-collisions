@@ -31,6 +31,7 @@ To find out which particles collide efficiently, I used Scipy's cKDTree, which i
 ### General dynamics 
 
 #### Physics-based simulation
+There isn't much to complain about in this general setting. Since the physics simulation is based on conservation of momentum and energy, this perfectly describes the collision responses between two particles. However, as we'll see below, collisions between three particles are not correct. 
 https://user-images.githubusercontent.com/54723095/132206927-b5006849-e712-45e8-b27d-e786fab783b9.mp4
 
 #### GCN 
@@ -44,7 +45,7 @@ https://user-images.githubusercontent.com/54723095/132208373-e1eb039a-7bb7-4c43-
 ### Symmetry
 
 #### Physics-based simulation
-An obvious break of symmetry is seen in the sequential physics simulation. Clearly, the physics are not quite correct.
+An obvious break of symmetry is seen in the sequential physics simulation. Clearly, the physics are not quite correct for simultaneous collisions between multiple particles.
 
 
 https://user-images.githubusercontent.com/54723095/132208241-4898255b-7ca5-44a7-8f2b-eaf2519fe5bc.mp4
