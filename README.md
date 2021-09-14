@@ -32,7 +32,12 @@ To find out which particles collide efficiently, I used Scipy's cKDTree, which i
 
 #### Physics-based simulation
 There isn't much to complain about in this general setting. Since the physics simulation is based on conservation of momentum and energy, this perfectly describes the collision responses between two particles. However, as we'll see below, collisions between three particles are not correct. 
-https://user-images.githubusercontent.com/54723095/132206927-b5006849-e712-45e8-b27d-e786fab783b9.mp4
+
+
+
+https://user-images.githubusercontent.com/54723095/133246681-f77332cf-7166-46eb-9c0c-57c9b9514472.mp4
+
+
 
 #### GCN 
 There seems to have been a slight loss in energy from the physics based simulation to the GCN, but overall, the collision responses look quite realistic. 
