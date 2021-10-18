@@ -43,7 +43,11 @@ https://user-images.githubusercontent.com/54723095/133246681-f77332cf-7166-46eb-
 There seems to have been a slight loss in energy from the physics based simulation to the GCN (although this can be compensated for by restoring the enrgy to the previous time step), but overall, the collision responses look very realistic. 
 
 
-https://user-images.githubusercontent.com/54723095/132208373-e1eb039a-7bb7-4c43-8e1f-89ad81bffa84.mp4
+
+https://user-images.githubusercontent.com/54723095/137793923-dfb24f57-c8c7-49fd-ac99-563ad84d9921.mp4
+
+
+
 
 
 
