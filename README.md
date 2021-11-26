@@ -62,7 +62,7 @@ https://user-images.githubusercontent.com/54723095/132208241-4898255b-7ca5-44a7-
 
 
 #### GCN
-The GCN learns to account for the inconsistencies. This is likely due to that the GCN has seen many multi-particle collisions. Many of these give different dynamics, and the outcome is not predictable solely by observing the simulation. The GCN seems to have found a sort of average between these inconsistencies. 
+The GCN learns to account for the inconsistencies. This is likely due to that the GCN has seen many multi-particle collisions, each with different dynamics from the physics simulation. The average of the possible collision responces in the above situation would, however, be symmetric. Meanwhile, the loss function is mean squared error (MSE). Because of the quadratic scaling of MSE, minimising the loss function would correspond to finding an average between the observed inconsistencies.
 
 
 https://user-images.githubusercontent.com/54723095/132208225-e0c65715-84b7-4847-b2e9-abd339353251.mp4
