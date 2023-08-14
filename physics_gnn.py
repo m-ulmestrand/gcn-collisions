@@ -73,6 +73,18 @@ def k_fold_train(train_set, k, batch_size, min_val_loss, model, trained_model, o
     return train_loss, val_loss, min_val_loss, trained_model
 
 
+def calculate_energy(v: torch.Tensor) -> torch.Tensor:
+    return (v ** 2).sum(dim=1)
+    
+
+def energy_momentum_loss(v_pred: torch.Tensor, v_truth: torch.Tensor):
+    energy_pred, energy_truth = calculate_energy(v_pred), calculate_energy(v_truth)
+    energy_loss = torch.abs(energy_pred - energy_truth).mean()
+    
+    momentum_loss = torch.abs(v_pred - v_truth).sum(dim=1).mean()
+    return energy_loss + momentum_loss
+    
+
 def main():
     # Initialising parameters
     n_train = 5000
